@@ -12,7 +12,13 @@
 
 
 
-add urs here
+## Marwan Rashid Alkashf Contributions
+
+- **UC-16** — View Registered User Accounts (Actor: Admin): Admin views a list of all tenant and landlord accounts.
+- **UC-17** — Suspend/Reactivate User Account (Actor: Admin): Admin suspends or reinstates a user account (e.g., for policy violations).
+- **UC-18** — View Flagged Listings Log (Actor: Admin): Admin reviews listings flagged as duplicate or inappropriate.
+- **UC-19** — Remove Policy-Violating Listing (Actor: Admin): Admin removes a listing that violates platform policy.
+- **UC-20** — View System Activity Statistics (Actor: Admin): Admin views platform-wide stats (active listings, weekly applications, etc.).
 
 
 

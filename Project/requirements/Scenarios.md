@@ -1,0 +1,10 @@
+# Scenarios
+
+
+| Scenario ID | Scenario Title | Actor/Stakeholder | Scenario Description |
+|---|---|---|---|
+| S-01 | Tenant Searches for a Rental Property | Potential Tenant | Ahmed logs in to look for a 2-bedroom apartment in Sharjah under AED 60,000/year. He filters listings by location, price range, and property type. The system returns 12 matching listings with photos and key details. Ahmed sorts results by price and opens the top listing to see full details. |
+| S-02 | Landlord Lists a New Property | Property Owner/Landlord | Layla logs into her landlord account and selects "Add New Listing." She enters the property's location, monthly rent, number of rooms, amenities, and uploads 6 photos. She sets the listing's availability date to next month. The system publishes the listing, and it appears in tenant search results within a minute. |
+| S-03 | Tenant Books a Viewing Appointment | Potential Tenant | After finding a suitable listing, Ahmed clicks "Book a Viewing." The system shows Layla's available time slots for the coming week. Ahmed selects Thursday at 4:00 PM and confirms. Both Ahmed and Layla receive a confirmation of the scheduled viewing on their dashboards. |
+| S-04 | Tenant Submits and Landlord Reviews a Rental Application | Potential Tenant / Property Owner | After viewing the property, Ahmed submits a rental application with his personal details and desired move-in date. Layla receives the application in her landlord dashboard and reviews it alongside two other applicants for the same unit. Layla accepts Ahmed's application; the system updates its status and closes the listing to new applications. |
+| S-05 | Administrator Manages a Reported User Account | System Administrator | The admin, Sara, receives a report that a landlord account posted a duplicate listing. She opens the admin dashboard, searches for the account by name, reviews its listing history, and suspends the account pending review. The system logs the action with a timestamp and Sara's admin ID. |

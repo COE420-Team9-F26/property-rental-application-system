@@ -12,6 +12,14 @@
 
 
 
+## Eyad ElBaha Contributions
+
+- **UC-11** — Define Viewing Availability (Actor: Landlord): Landlord sets available time slots for property viewings.
+- **UC-12** — View Viewing Calendar (Actor: Landlord): Landlord views all upcoming scheduled viewings across their listings.
+- **UC-13** — Register Account (Actor: Tenant/Landlord): New user creates an account with email and password before using the platform.
+- **UC-14** — Log Into System (Actor: Tenant/Landlord): Registered user authenticates with email and password to access their account.
+- **UC-15** — Cancel/Reschedule Viewing (Actor: Landlord): Landlord cancels or reschedules a confirmed viewing appointment, notifying the tenant.
+
 ## Marwan Rashid Alkashf Contributions
 
 - **UC-16** — View Registered User Accounts (Actor: Admin): Admin views a list of all tenant and landlord accounts.

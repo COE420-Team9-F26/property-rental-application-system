@@ -8,6 +8,14 @@
 - **NFR-04** (Usability): A landlord shall be able to create a new listing in under 10 minutes on first use, verified via usability testing.
 - **NFR-05** (Size): Uploaded property photos shall be limited to 5MB each, with a maximum of 10 photos per listing.
 
+## Eyad ElBaha Contributions
+
+- **NFR-11** (Security): The system shall lock a user account for 15 minutes after 5 consecutive failed login attempts.
+- **NFR-12** (Reliability): Scheduled viewing appointment data shall be persisted to the database within 1 second of confirmation, surviving a server restart.
+- **NFR-13** (Usability): Login and registration forms shall provide inline validation feedback (e.g., invalid email format) within 1 second of user input.
+- **NFR-14** (Performance): The landlord's viewing calendar shall load within 2 seconds for up to 50 scheduled appointments.
+- **NFR-15** (Security): Passwords shall be required to be at least 8 characters, including one number and one special character.
+
 ## Marwan Rashid Alkashf Contributions
 
 - **NFR-16** (Security): Admin dashboard access shall require a separate admin-role authentication check on every request, not just at login.

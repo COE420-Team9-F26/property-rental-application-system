@@ -8,6 +8,14 @@
 - **FR-04**: The system shall allow a landlord to view all rental applications submitted for their listings. (Source: S-04)
 - **FR-05**: The system shall allow a landlord to accept or reject a rental application, updating its status. (Source: S-04)
 
+## Eyad ElBaha Contributions
+
+- **FR-11**: The system shall allow a landlord to define available viewing time slots for a property listing. (Source: S-03)
+- **FR-12**: The system shall allow a landlord to view a calendar of all upcoming scheduled viewings across their listings. (Source: S-03)
+- **FR-13**: The system shall prevent a viewing time slot from being booked by more than one tenant simultaneously. (Source: S-03)
+- **FR-14**: The system shall allow a registered user to log into the system using their email and password. (Source: S-01, S-02)
+- **FR-15**: The system shall allow a landlord to cancel or reschedule a viewing appointment, notifying the tenant of the change. (Source: S-03)
+
 ## Marwan Rashid Alkashf Contributions
 
 - **FR-16**: The system shall allow an administrator to view a list of all registered tenant and landlord accounts. (Source: S-05)

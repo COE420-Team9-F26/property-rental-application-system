@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Lab4" company="" webLink="http://" view-date="2026-09-09" view-index="0" gantt-divider-location="100" resource-divider-location="300" version="3.3.3322" locale="en_AE">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Name" width="57" order="0"/>
+        <field id="tpd4" name="Begin date" width="21" order="1"/>
+        <field id="tpd5" name="End date" width="21" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelRight" value=""/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="1f8779d24c0a48b1b725f5cd3f236a1f" name="T1 Requirements refinement and rule definition" meeting="false" start="2026-09-01" duration="3" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="e4137feed1204fbb8e6e4200c106e9c1" name="T2 Architecture and technology stack selection" meeting="false" start="2026-09-04" duration="3" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="956afcf502af474dab47c58ee1c9248e" name="T3 Database design" meeting="false" start="2026-09-09" duration="4" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="3006ca199bbb47399f9371a4dd4868ea" name="T4 User interface design" meeting="false" start="2026-09-04" duration="5" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="3c31dab9c0674be18b7b083ea00f9758" name="T5 Authentication and account management" meeting="false" start="2026-09-15" duration="6" complete="0" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" uid="2daf235f8be44dc0829682f27b896916" name="T6 Listing management module" meeting="false" start="2026-09-23" duration="6" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="dc673031abbc4fabb49c173a2ae87f6f" name="T7 Search and listing details module" meeting="false" start="2026-10-01" duration="5" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="018eb59c7bcd4fe7aa0885c27105a870" name="T8 Viewing scheduling module" meeting="false" start="2026-10-01" duration="7" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="2f75ef8670754eb0b2328f3d26aa14a1" name="T9 Rental application module" meeting="false" start="2026-10-01" duration="6" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="05e1e0b5899c48bc963890b4bfa70e2e" name="T10 Admin module" meeting="false" start="2026-10-01" duration="6" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="f2a3561836664d6b9ee8515930303ecb" name="T11 System integration" meeting="false" start="2026-10-12" duration="4" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="a23077ce5d2a4545a787fa2743cf3874" name="T12 Test plan and test case preparation" meeting="false" start="2026-09-09" duration="4" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="c1700f671f1c4a52a851f4040218e46f" name="T13 System testing and defect fixing" meeting="false" start="2026-10-16" duration="7" complete="0" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="90e7d021d9654955ada03493a2e1761c" name="T14 Technical documentation and user guides" meeting="false" start="2026-10-16" duration="4" complete="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="15" uid="d239e96560eb41d3b65b171daa29795e" name="T15 Deployment preparation" meeting="false" start="2026-10-27" duration="3" complete="0" expand="true">
+            <depend id="16" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="16" uid="d3b03c1025ab41318172badd180d2616" name="T16 Final report and presentation" meeting="false" start="2026-10-30" duration="3" complete="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

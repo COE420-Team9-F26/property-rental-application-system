@@ -13,6 +13,4 @@
 | C05 | AdminActionLog | Records administrator actions, including action type, affected item or account, and date/time, for accountability and traceability. | UC-20 | Marwan Rashid |
 | C06 | ActivityStatistics | Provides summary statistics on users, property listings, and flagged listings for administrative monitoring. | UC-20 | Marwan Rashid |
 
-## UML Class Diagram
 
-![UML Class Diagram](UML_Diagram.png)
